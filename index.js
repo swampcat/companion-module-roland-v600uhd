@@ -209,9 +209,9 @@ instance.prototype.config_fields = function () {
 			id: 'connectionInfo',
 			width: 12,
 			label: 'Connection Option',
-			value: 'Roland appears to require an STX character (character code 002) 
-			at the start of the command string for some switchers.\
-			Try toggling this option if your switcher does not respond to commands.'
+			value: 'Roland appears to require an STX character (character code 002) ' +
+			'at the start of the command string for some switchers. ' +
+			'Try toggling this option if your switcher does not respond to commands.'
 		},
 		{
 			type: 'checkbox',
